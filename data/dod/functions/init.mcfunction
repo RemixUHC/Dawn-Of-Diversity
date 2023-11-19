@@ -1,19 +1,15 @@
 ##Schedule
 schedule function dod:misc/2sec 2s replace
-schedule function dod:misc/for_every_species/clear_items 2s replace
 schedule function dod:misc/for_every_species/give_species_effects 10s replace
 schedule function dod:species/end_sprinter/end_sprinter_1sec 1s replace
 schedule function dod:species/puffer/puffer_1_sec 1s replace
 schedule function dod:misc/1sec 1s replace
-schedule function dod:species/werewolf/werewolf_1sec 1s replace
 schedule function dod:species/spectral/1sec 1s replace
 
 ##Scoreboard Init
 scoreboard objectives add dod_pid dummy
 
 scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on_a_stick
-scoreboard objectives add dod_health_respawn minecraft.custom:deaths
-scoreboard objectives add dod_health_respawn_walk minecraft.custom:walk_one_cm
 scoreboard objectives add dod_red_loki_speed dummy
 scoreboard objectives add dod_player_dammage minecraft.custom:damage_taken
 scoreboard objectives add dod_icelander_cooldown dummy
@@ -39,7 +35,6 @@ scoreboard objectives add dod_night_walker_amethyst minecraft.dropped:amethyst_b
 scoreboard objectives add dod_red_loki_sugar minecraft.dropped:sugar
 scoreboard objectives add dod_red_loki_gunpowder minecraft.dropped:gunpowder
 scoreboard objectives add dod_trigger_equip trigger
-scoreboard objectives add dod_what_species_am_i trigger
 scoreboard objectives add dod_trigger_equip trigger
 scoreboard objectives add dod_iceblock_timer dummy
 scoreboard objectives add dod_moon_night_math dummy
@@ -49,18 +44,11 @@ scoreboard objectives add dod_demonic_constant_10 dummy
 scoreboard objectives add dod_moon_constant_1 dummy
 scoreboard objectives add dod_octo_still dummy
 scoreboard objectives add dod_hp dummy
-scoreboard objectives add dod_nuzlocke_1_is_on dummy
-scoreboard objectives add dod_optional_settings_1_is_on dummy
 
 scoreboard objectives add dod_egg_shifter_gamemode dummy
-scoreboard objectives add dod_permadeath_1_is_on dummy
-scoreboard objectives add dod_random_species_1_is_on dummy
 scoreboard objectives add dod_puffer_thrown_trident minecraft.used:minecraft.trident
 scoreboard objectives add dod_hunger_level dummy
 scoreboard objectives add dod_fall_distace dummy
-scoreboard objectives add dod_species_trigger trigger
-scoreboard objectives add dod_species_trigger_confirm trigger
-scoreboard objectives add dod_random_store dummy
 
 scoreboard objectives add dod_end_sprinter_raycast dummy
 scoreboard objectives add dod_end_sprinter_cooldown dummy
