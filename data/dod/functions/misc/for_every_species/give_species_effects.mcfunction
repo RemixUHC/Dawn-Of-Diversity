@@ -4,15 +4,9 @@ execute as @a[tag=end_sprinter] unless entity @e[distance=0..30,nbt={Item:{id:"m
 
 execute as @a[tag=skyborn] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/skyborn/skyborn_effects
 
-execute as @a[tag=puffer] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/puffer/puffer_effects
-
 execute as @a[tag=night_walker] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/night_walker/night_walker_effects
 
 execute as @a[tag=egg_shifter] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/egg_shifter/egg_shifter_effects
-
-execute as @a[tag=octo] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/octo/octo_effects
-
-execute as @a[tag=werewolf] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/werewolf/werewolf_effects
 
 execute as @a[tag=icelander] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/icelander/icelander_effects
 
@@ -27,8 +21,6 @@ execute as @a[tag=serpenteer] unless entity @e[distance=0..30,nbt={Item:{id:"min
 execute as @a[tag=warlock] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/warlock/warlock_effects
 
 execute as @a[tag=spectral] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/spectral/spectral_effects
-
-execute as @a[tag=dimen] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/dimen/dimen_effects
 
 execute as @a[tag=bits] unless entity @e[distance=0..30,nbt={Item:{id:"minecraft:netherite_block",Count:1b}}] run function dod:species/bits/bits_effects
 

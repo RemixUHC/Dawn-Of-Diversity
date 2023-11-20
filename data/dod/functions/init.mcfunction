@@ -2,7 +2,6 @@
 schedule function dod:misc/2sec 2s replace
 schedule function dod:misc/for_every_species/give_species_effects 10s replace
 schedule function dod:species/end_sprinter/end_sprinter_1sec 1s replace
-schedule function dod:species/puffer/puffer_1_sec 1s replace
 schedule function dod:misc/1sec 1s replace
 schedule function dod:species/spectral/1sec 1s replace
 
@@ -13,7 +12,6 @@ scoreboard objectives add dod_warped_right_click minecraft.used:warped_fungus_on
 scoreboard objectives add dod_red_loki_speed dummy
 scoreboard objectives add dod_player_dammage minecraft.custom:damage_taken
 scoreboard objectives add dod_icelander_cooldown dummy
-scoreboard objectives add dod_dimen_list dummy
 scoreboard objectives add dod_copper_born_oxidation dummy
 scoreboard objectives add dod_copper_born_axe minecraft.dropped:iron_axe
 scoreboard objectives add dod_copper_born_copper minecraft.dropped:copper_block
@@ -37,16 +35,10 @@ scoreboard objectives add dod_red_loki_gunpowder minecraft.dropped:gunpowder
 scoreboard objectives add dod_trigger_equip trigger
 scoreboard objectives add dod_trigger_equip trigger
 scoreboard objectives add dod_iceblock_timer dummy
-scoreboard objectives add dod_moon_night_math dummy
-scoreboard objectives add dod_puffer_air dummy
-scoreboard objectives add dod_moon_constant_8 dummy
 scoreboard objectives add dod_demonic_constant_10 dummy
-scoreboard objectives add dod_moon_constant_1 dummy
-scoreboard objectives add dod_octo_still dummy
 scoreboard objectives add dod_hp dummy
 
 scoreboard objectives add dod_egg_shifter_gamemode dummy
-scoreboard objectives add dod_puffer_thrown_trident minecraft.used:minecraft.trident
 scoreboard objectives add dod_hunger_level dummy
 scoreboard objectives add dod_fall_distace dummy
 
